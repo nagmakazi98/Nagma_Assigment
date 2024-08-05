@@ -1,0 +1,177 @@
+[1721146829.534][INFO]: Starting ChromeDriver 126.0.6478.126 (d36ace6122e0a59570e258d82441395206d60e1c-refs/branch-heads/6478@{#1591}) on port 4785
+[1721146829.535][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1721146829.963][INFO]: [772378f54670f6b3ad3caab00bf8a456] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1721146829.963][INFO]: Browser search. Trying... C:\Users\nagma.kazi\.cache\selenium\chromedriver\win64\126.0.6478.126\chrome.exe
+[1721146829.966][INFO]: Browser search. Trying... C:\Users\nagma.kazi\.cache\selenium\chromedriver\win64\126.0.6478.126\chrome.exe
+[1721146829.967][INFO]: Browser search. Trying... C:\Users\nagma.kazi\.cache\selenium\chromedriver\win64\126.0.6478.126\chromium.exe
+[1721146829.993][INFO]: Browser search. Trying... C:\Users\nagma.kazi\AppData\Local\Google\Chrome\Application\chrome.exe
+[1721146829.993][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1721146829.993][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1721146829.998][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1721146830.018][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1721146830.047][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1721146830.047][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1721146830.059][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\NAGMA~1.KAZ\AppData\Local\Temp\scoped_dir16552_989044465" data:,
+[1721146832.305][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1721146833.397][INFO]: [772378f54670f6b3ad3caab00bf8a456] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "126.0.6478.127",
+      "chrome": {
+         "chromedriverVersion": "126.0.6478.126 (d36ace6122e0a59570e258d82441395206d60e1c-refs/branch-heads/6478@{#1591})",
+         "userDataDir": "C:\\Users\\NAGMA~1.KAZ\\AppData\\Local\\Temp\\scoped_dir16552_989044465"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52317"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "772378f54670f6b3ad3caab00bf8a456"
+}
+[1721146833.515][INFO]: [772378f54670f6b3ad3caab00bf8a456] COMMAND MaximizeWindow {
+}
+[1721146833.515][INFO]: Waiting for pending navigations...
+[1721146833.517][INFO]: Done waiting for pending navigations. Status: ok
+[1721146833.550][INFO]: Waiting for pending navigations...
+[1721146833.551][INFO]: Done waiting for pending navigations. Status: ok
+[1721146833.551][INFO]: [772378f54670f6b3ad3caab00bf8a456] RESPONSE MaximizeWindow {
+   "height": 744,
+   "width": 1382,
+   "x": -8,
+   "y": -8
+}
+[1721146833.561][INFO]: [772378f54670f6b3ad3caab00bf8a456] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1721146833.561][INFO]: [772378f54670f6b3ad3caab00bf8a456] RESPONSE SetTimeouts
+[1721146833.570][INFO]: [772378f54670f6b3ad3caab00bf8a456] COMMAND Navigate {
+   "url": "https://www.opencart.com/index.php?route=cms/demo"
+}
+[1721146833.570][INFO]: Waiting for pending navigations...
+[1721146833.574][INFO]: Done waiting for pending navigations. Status: ok
+[1721146846.068][INFO]: Waiting for pending navigations...
+[1721146857.092][INFO]: Done waiting for pending navigations. Status: ok
+[1721146857.092][INFO]: [772378f54670f6b3ad3caab00bf8a456] RESPONSE Navigate
+[1721146857.112][INFO]: [772378f54670f6b3ad3caab00bf8a456] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()=\"Register\" and @class=\"btn btn-black navbar-btn\"]"
+}
+[1721146857.112][INFO]: Waiting for pending navigations...
+[1721146857.118][INFO]: Done waiting for pending navigations. Status: ok
+[1721146857.147][INFO]: Waiting for pending navigations...
+[1721146857.148][INFO]: Done waiting for pending navigations. Status: ok
+[1721146857.148][INFO]: [772378f54670f6b3ad3caab00bf8a456] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.332644AB27EF904877648D8E972BEB17.d.EE605A4B8858D9DF6D1F9572B95321A4.e.27"
+}
+[1721146857.160][INFO]: [772378f54670f6b3ad3caab00bf8a456] COMMAND ClickElement {
+   "id": "f.332644AB27EF904877648D8E972BEB17.d.EE605A4B8858D9DF6D1F9572B95321A4.e.27"
+}
+[1721146857.160][INFO]: Waiting for pending navigations...
+[1721146857.161][INFO]: Done waiting for pending navigations. Status: ok
+[1721146857.278][INFO]: Waiting for pending navigations...
+[1721146858.370][INFO]: Done waiting for pending navigations. Status: ok
+[1721146858.370][INFO]: [772378f54670f6b3ad3caab00bf8a456] RESPONSE ClickElement
+[1721146863.382][INFO]: [772378f54670f6b3ad3caab00bf8a456] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1721146863.382][INFO]: Waiting for pending navigations...
+[1721146863.386][INFO]: Done waiting for pending navigations. Status: ok
+[1721146893.435][INFO]: Waiting for pending navigations...
+[1721146893.436][INFO]: Done waiting for pending navigations. Status: ok
+[1721146893.436][INFO]: [772378f54670f6b3ad3caab00bf8a456] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=126.0.6478.127)
